@@ -11,6 +11,7 @@
     <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
     <link href="css/index.css" type="text/css" rel="stylesheet" media="screen,projection" />
     <link rel="stylesheet" href="_css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/cerimonia.css">
     <link rel="stylesheet" href="css/index.css">
     <!--FONTES-->
     <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
@@ -22,57 +23,65 @@
     <div id="mySidenav" class="sidenav">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <a href="index.html">Home</a>
-        <a href="#sobre">Historia</a>
+        <a href=" index.html #sobre">Historia</a>
         <a href="padrinhos.html">ao nosso lado</a>
-        <a href="cerimonia.html ">Cerimônia Religiosa</a>
-        <a href="cerimonia.html ">Confirmação de Presença</a>
+        <a href="cerimonia.html">Cerimônia Religiosa</a>
+        <a href="cerimonia.html">Confirmação de Presença</a>
         <a href="cerimonia.html">Lista de presentes Virtual</a>
     </div>
     <span style="font-size:20px;font-family:'Lobster',ursive; cursor:pointer" onclick="openNav()">&#9776; MENU</span>
     <div id="logo-topo">
         <img src="img/22119714_1451534798264383_1238029508_o.png" alt="">
     </div>
-    <div class="slideshow-container">
 
-        <div class="mySlides fade">
-            <div class="numbertext">1 / 3</div>
-            <img src="img/background1.jpg" style="width:100%">
+    <div id="cerimonia">
+        <h2>Confirmação de Presença</h2>
+        <div id="conf-presenca">
+            <h3>sua presença é muito importante para nós</h3>
+            <button id="myBtn">Confirmar</button>
+            <div id="myModal" class="modal">
+                <div class="modal-content">
+                    <img src="img/Rosa-Adamascado.jpg" alt="">
+                    <span class="close">&times;</span>
+                    <div class="containe">
+                        <form id="contact" action="cerimonia.php" method="post">
+                            <fieldset>
+                                <input placeholder="Nome identico ao do convite" type="text" name="nome" tabindex="1" required autofocus>
+                            </fieldset>
+                            <fieldset>
+                                <input placeholder="E-mail" type="email" tabindex="2" name="email" required>
+                            </fieldset>
+                            <fieldset>
+                                <input placeholder="Telefone (Somente numeros)" type="number" name="tel" tabindex="3" required>
+                            </fieldset>
+                            <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Confirmar</button>
+                            </fieldset>
+                        </form>
+                    </div>
+                </div>
+            </div>
         </div>
+        </br>
+        <h2>Lista de Presentes</h2>
+        <p>Para aqueles que preferem nos presentear em uma loja física, aqui vocês poderão encontrar nossas listas de presentes. </br>Quando acessarem em um dos sites, é preciso identificar o nome do noivo ou da noiva. Gratidão pelos mimos!</p>
+        </br>
+        <h2>Cerimônia Religiosa</h2>
+        <p>Só serve a Deus com o que se tem de melhor a oferecer. A oferta de Abel e não a de Caim agradou a Deus. Cristo, Pão da Videira é sacrifício repetido desde a </br>Plenitude dos Tempo, transubstancia no Vinho, a mais nobre e erudita das bebidas,
+            é a Excelência da Videira.</p>
+        <p>Somos um casal católico e que buscar viver os mandamentos que Jesus nos deixou de maneira simples. Desse forma escolhemos a pequena e singela capela de Santo Expedito para</br> celebrar este dia tão feliz e único em nossas vidas. Esperamos que
+            vocês assim como nós, encontrem na Santa Igreja, o alento para todos os dias de vossas vidas.</p>
+        <p>Nos encontramos lá!</p>
+        </br>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3731.41298540634!2d-42.03299664874513!3d-20.734048686090834!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xbb7a6647352e79%3A0x89684f7ecdee1251!2sIgreja+Matriz+de+Santa+Luzia!5e0!3m2!1spt-BR!2sbr!4v1507053593543"
+            width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></br>
+        </br>
+        <h2>Previsão do tempo</h2>
+        </br>
+        <div id="cont_f9dcf89b4f465e7029c6fdac11dc9e99">
+            <script type="text/javascript" async src="https://www.tempo.com/wid_loader/f9dcf89b4f465e7029c6fdac11dc9e99"></script>
+        </div>
+        </br>
 
-        <div class="mySlides fade">
-            <div class="numbertext">2 / 3</div>
-            <img src="img/background2.jpg" style="width:100%">
-        </div>
-
-        <div class="mySlides fade">
-            <div class="numbertext">3 / 3</div>
-            <img src="img/background3.jpg" style="width:100%">
-        </div>
-
-    </div>
-    <br>
-
-    <div style="text-align:center">
-        <span class="dot"></span>
-        <span class="dot"></span>
-        <span class="dot"></span>
-    </div>
-    <div class="noivos">
-        <h5>Sejam Bem Vindos! Aqui começa a história desse Grande Dia!</h5>
-        <div id="sobre">
-            <img class="responsive-img" src="img/over-couple-73e2c730ba04f773784c373f0a62f369.png" alt="">
-        </div>
-        <div id="sobre-img-m">
-            <img class="responsive-img" src="img/m.jpg" alt="logo-dayane" width="100%">
-        </div>
-        <div id="sobre-img-h">
-            <img class="responsive-img" src="img/h.jpg" alt="logo-fernado" width="100%">
-        </div>
-        <h3>Dayane Neves &shy; &shy; E &shy; &shy;Luiz Fernando</h3>
-        <p>Como começou a história de vocês? Será que as duas versões são a mesma? </br>Aqui vocês podem contar aos seus convidados um pouco mais dessa história,</br> para que assim possam sentir junto com vocês ainda mais a emoção desse processo tão especial!</p>
-        <div id="sobre-rodape">
-            <img class="responsive-img" src="img/about-section-footer-a485f8d2f627d5baaca1d41388bbee1a.png" alt="">
-        </div>
     </div>
 
     <footer class="page-footer">
@@ -95,6 +104,7 @@
     <!-- JAVASCRIPT  -->
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="js/materialize.js"></script>
+    <script src="js/cerimonia.js"></script>
     <script src="js/init.js"></script>
 </body>
 

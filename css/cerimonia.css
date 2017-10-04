@@ -1,0 +1,411 @@
+
+.modal {
+    display: none;
+    position: fixed; 
+    z-index: 1; 
+    padding-top: 200px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 2000px; 
+    overflow: auto; 
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4); 
+}
+
+
+.modal-content {
+    margin: auto;
+    margin-top: -150px;
+    padding: 20px;
+    border: 1px solid #888;
+    border-radius: 8px;
+    width: 1425px;
+    height: 400px;
+}
+.modal-content img {
+    margin: auto;
+    margin-top: -27px;
+    margin-left: -26px;    
+    padding: 2px;
+    border-radius: 8px;
+    width: 1427px;
+    height: 403px;
+}
+
+.close {
+    color: #aaaaaa;
+    position: relative;
+    top: -396px;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#myBtn {
+  position: relative;
+  top: -90px;    
+  left: 360px;
+  background-color: #e99ca2; 
+  width: 100px;
+  height: 40px;
+  border-radius: 7px;    
+}
+#conf-presenca h3 {
+    text-align: center;
+    position: relative;
+    top: -110px;
+    font-size: 18pt;
+    font-family: 'Lobster', cursive;
+}
+
+
+#conf-presenca {
+   background-color: #ef6975;
+   padding: 200px 20px 20px 2px;
+   margin-left: 300px;
+   margin-right: 300px;
+   border: 1px solid #000000;    
+   border-radius: 25px;    
+}
+
+#cerimonia h2 {
+    text-align: center;
+    font-size: 25pt;
+    font-family: 'Lobster', cursive;
+}
+#cerimonia p {
+    text-align: center;
+    font-size: 12pt;
+}
+
+.containe {
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  top: -500px;
+}
+
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact button[type="submit"] {
+  font: 400 12px/16px "Roboto", Helvetica, Arial, sans-serif;
+}
+
+#contact {
+  background: #F9F9F9;
+  padding: 25px;
+  margin: 150px 0;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+
+fieldset {
+  border: medium none !important;
+  margin: 0 0 10px;
+  min-width: 100%;
+  padding: 0;
+  width: 100%;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"] {
+  width: 95%;
+  height: 20px;    
+  border: 1px solid #ccc;
+  background: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+  border-radius: 5px;    
+}
+
+#contact input[type="text"]:hover,
+#contact input[type="email"]:hover,
+#contact input[type="tel"]:hover {
+  -webkit-transition: border-color 0.3s ease-in-out;
+  -moz-transition: border-color 0.3s ease-in-out;
+  transition: border-color 0.3s ease-in-out;
+  border: 1px solid #aaa;
+}
+
+#contact textarea {
+  height: 100px;
+  max-width: 100%;
+  resize: none;
+}
+
+#contact button[type="submit"] {
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  background: #4CAF50;
+  color: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 4px;    
+}
+
+#contact button[type="submit"]:hover {
+  background: #43A047;
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#contact button[type="submit"]:active {
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.copyright {
+  text-align: center;
+}
+
+#contact input:focus,
+#contact textarea:focus {
+  outline: 0;
+  border: 1px solid #aaa;
+}
+
+::-webkit-input-placeholder {
+  color: #888;
+}
+
+:-moz-placeholder {
+  color: #888;
+}
+
+::-moz-placeholder {
+  color: #888;
+}
+
+:-ms-input-placeholder {
+  color: #888;
+}
+iframe {
+    position: relative;
+    left: 650px;
+}
+#cont_f9dcf89b4f465e7029c6fdac11dc9e99 {
+  position: relative;
+  left: -650px;    
+}
+@media only screen and (max-width : 1920px) {
+ #myBtn {
+  position: relative;
+  top: -90px;    
+  left: 600px;
+  background-color: #e99ca2; 
+  width: 100px;
+  height: 40px;
+  border-radius: 7px;    
+}
+iframe {
+    position: relative;
+    left: 650px;
+}
+#cont_f9dcf89b4f465e7029c6fdac11dc9e99 {
+  position: relative;
+  left: -650px;    
+}    
+    
+}
+@media only screen and (max-width : 1366px) {
+#myBtn {
+  position: relative;
+  top: -90px;    
+  left: 310px;
+  background-color: #e99ca2; 
+  width: 100px;
+  height: 40px;
+  border-radius: 7px;    
+}
+
+    
+.modal-content {
+  margin: auto;
+  margin-top: -185px;
+  padding: 20px;
+  border: 1px solid #888;
+  border-radius: 8px;
+  width: 1300px;
+  height: 300px;
+}    
+.modal-content img {
+  margin: auto;
+  margin-top: -27px;
+  margin-left: -26px;    
+  padding: 2px;
+  border-radius: 8px;
+  width: 1304px;
+  height: 304px;
+}
+
+.close {
+  color: #aaaaaa;
+  position: relative;
+  top: -296px;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+.containe {
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  top: -432px;
+}   
+iframe {
+    position: relative;
+    left: 370px;
+}
+#cont_f9dcf89b4f465e7029c6fdac11dc9e99 {
+  position: relative;
+  left: -400px;    
+}  
+}
+@media only screen and (max-width: 445px){
+ .modal {
+    display: none;
+    position: fixed; 
+    z-index: 1; 
+    padding-top: 200px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 2000px; 
+    overflow: auto; 
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4); 
+}
+
+
+.modal-content {
+  margin: auto;
+  margin-top: -160px;
+  padding: 20px;
+  border: 1px solid #888;
+  border-radius: 8px;
+  width: 345px;
+  height: 400px;
+}    
+.modal-content img {
+  margin: auto;
+  margin-top: -29px;
+  margin-left: -29px;    
+  padding: 2px;
+  border-radius: 8px;
+  width: 354px;
+  height: 404px;
+}
+
+.close {
+  color: #aaaaaa;
+  position: relative;
+  top: -396px;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#myBtn {
+  position: relative;
+  top: -10px;    
+  left: 85px;
+  background-color: #e99ca2; 
+  width: 100px;
+  height: 40px;
+  border-radius: 7px; 
+      
+}
+#conf-presenca h3 {
+    text-align: center;
+    position: relative;
+    top: -30px;
+    font-size: 13pt;
+    font-family: 'Lobster', cursive;
+}
+
+
+#conf-presenca {
+   background-color: #ef6975;
+   padding: 30px 20px 20px 20px;
+   margin-left: 20px;
+   margin-right: 20px;
+   border: 1px solid #000000;    
+   border-radius: 25px;    
+}
+
+#cerimonia h2 {
+    text-align: center;
+    font-size: 18pt;
+    font-family: 'Lobster', cursive;
+}
+#cerimonia p {
+    text-align: center;
+    font-size: 9pt;
+}
+
+.containe {
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  top: -500px;
+}  
+iframe {
+    position: relative;
+    left: 15px;
+    width: 90%;
+    height: 110%;
+}
+#cont_f9dcf89b4f465e7029c6fdac11dc9e99 {
+  position: relative;
+  left: -200px;
+  width: -20px;
+  height: -30px;    
+}  
+    
+    
+    
+    
+    
+    
+    
+    
+}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    

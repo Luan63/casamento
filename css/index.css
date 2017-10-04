@@ -1,0 +1,413 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Alex+Brush');
+#logo-topo img{
+  margin: auto;
+  height: auto;
+  display: block;
+  position: relative;
+  top:-40px;
+}
+/*CAROUSEL*/
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: -50px auto auto auto;
+}
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+
+.dot {
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+/*MENU*/
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.2s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 19px;
+    color: #e99ca2;
+    display: block;
+    transition: 0.1s;
+    margin: 0 0 0 -10px;
+    text-align: left;
+    font-family: 'Lobster', cursive;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+h2 {
+    text-align: center;
+    margin: -20px 0 0 0;
+    font-family: 'Lobster', cursive;
+    
+}
+.noivos h5{
+   text-align: center;
+   font-family: 'Lobster', cursive;
+    
+}
+.noivos h3{
+   text-align: center;
+   font-family: 'Alex Brush', cursive;
+   position: relative;
+    top: -150px;
+}
+#sobre img {
+    margin: auto;
+    height: auto;
+    display: block;
+    width: 25%;
+}
+#sobre-img-m img{
+    display:block;
+    margin: auto;
+    width: 12%;
+    border-radius: 200px;
+    position: relative;
+    top: -0px;
+    left: -76px;
+}
+#sobre-img-h img{
+    display:block;
+    margin: auto;
+    width: 12%;
+    border-radius:200px;
+    position: relative;
+    top:-175px;
+    left: 75px;
+    
+}
+#sobre-rodape img {
+    margin: auto;
+    height: auto;
+    display: block;
+    width: 15%;
+    position: relative;
+    top:-90px;
+}
+.noivos {
+    max-width: 100%;
+}
+.noivos p {
+   text-align: center;
+    position: relative;
+    top:-150px;
+}
+
+
+.page-footer {
+    background-color: #e99ca2;
+}
+
+@media only screen and (max-width : 1920px) {
+#sobre-img-m img{
+    display:block;
+    margin: auto;
+    width: 12%;
+    border-radius: 200px;
+    position: relative;
+    top: -0px;
+    left: -89px;
+}
+#sobre-img-h img{
+    display:block;
+    margin: auto;
+    width: 12%;
+    border-radius:200px;
+    position: relative;
+    top:-225px;
+    left: 85px;
+    
+}
+}
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 12px;}
+  .sidenav a {font-size: 15px;}
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+    
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+
+
+@media only screen and (max-width: 600px){
+#logo-topo img{
+  margin: auto;
+  height: auto;
+  display: block;
+  position: relative;
+  width: 40%;
+}
+ 
+}
+h2 {
+    font-size: 13pt;
+    text-align: right;
+    }
+.noivos h5{
+   font-size: 15pt;
+   text-align: center;
+   font-family: 'Lobster', cursive;
+}  
+}
+
+@media only screen and (max-width: 990px){
+#sobre img {
+    margin: auto;
+    height: auto;
+    display: block;
+    width: 60%;
+}
+#sobre-img-m img{
+    display:block;
+    margin: auto;
+    width: 25%;
+    border-radius: 100px;
+    position: relative;
+    top: -0px;
+    left: -34px;
+}
+#sobre-img-h img{
+    display:block;
+    margin: auto;
+    width: 25%;
+    border-radius:100px;
+    position: relative;
+    top:-40px;
+    left: 37px;
+    
+}
+#sobre-rodape img {
+    display: block;
+    width: 45%;
+    position: relative;
+    top:-10px;
+}
+.noivos h3{
+   text-align: center;
+   font-size: 19pt;
+   font-family: 'Alex Brush', cursive;
+   position: relative;
+   top: -60px;
+}
+.noivos p {
+   position: relative;
+   top:-50px;
+   font-size: 10pt;
+}
+}
+@media only screen and (max-width: 1366px){
+#sobre img {
+    margin: auto;
+    height: auto;
+    display: block;
+    width: 30%;
+}
+#sobre-img-m img{
+    display:block;
+    margin: auto;
+    width: 15%;
+    border-radius: 100px;
+    position: relative;
+    top: -0px;
+    left: -84px;
+}
+#sobre-img-h img{
+    display:block;
+    margin: auto;
+    width: 15%;
+    border-radius:100px;
+    position: relative;
+    top:-200px;
+    left: 80px;
+    
+}
+#sobre-rodape img {
+    display: block;
+    width: 25%;
+    position: relative;
+    top:-10px;
+}
+}
+@media only screen and (max-width: 445px){
+#sobre img {
+    margin: auto;
+    height: auto;
+    display: block;
+    width: 60%;
+}
+#sobre-img-m img{
+    display:block;
+    margin: auto;
+    width: 25%;
+    border-radius: 100px;
+    position: relative;
+    top: -0px;
+    left: -37px;
+}
+#sobre-img-h img{
+    display:block;
+    margin: auto;
+    width: 25%;
+    border-radius:100px;
+    position: relative;
+    top:-90px;
+    left: 40px;
+    
+}
+#sobre-rodape img {
+    display: block;
+    width: 55%;
+    position: relative;
+    top:-10px;
+}
+.noivos h3{
+   text-align: center;
+   font-size: 19pt;
+   font-family: 'Alex Brush', cursive;
+   position: relative;
+   top: -40px;
+}
+.noivos p {
+   position: relative;
+   top:-50px;
+   font-size: 10pt;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
